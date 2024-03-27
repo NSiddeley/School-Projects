@@ -1,0 +1,133 @@
+Author: Nigel Siddeley
+Student ID: 501186392
+---------------------------------------------------------------------------------------------
+OUTPUT CASE 1: All roles and abilities covered (plus demonstration of denying invalid inputs)
+---------------------------------------------------------------------------------------------
+In [1]: runfile('C:/Users/Gw33m/.spyder-py3/programs/a1/a1.py', wdir='C:/Users/Gw33m/.spyder-py3/programs/a1')
+
+Welcome to the Valorant Agent Picker.
+Enter the 4 agents that have already been selected by your teammates.
+=====================================================================
+Valid agents: 
+['jett', 'raze', 'reyna', 'yoru', 'neon', 'phoenix', 'breach', 'kay/o', 'skye', 'sova', 'fade', 'astra', 'omen', 'viper', 'harbor', 'brimstone', 'cypher', 'killjoy', 'chamber', 'sage']
+
+ > Agent 1: PHOENIX
+ > Agent 2: phoenix
+you cannot have duplicate agents on your team!
+ > Agent 2: Astra
+ > Agent 3: sAgE
+ > Agent 4: Walter White!
+Walter White! is not an agent!
+ > Agent 4: sova
+
+Enter your favourite agent. If you don't have one, enter 'none'
+ > Favourite Agent: Squidward
+That is not a valid input!
+ > Favourite Agent: none
+
+Your team's got everything covered, it doesn't matter who you play. Pick whoever seems fun!
+
+
+
+
+
+-----------------------------------------------------------------------
+OUTPUT CASE 2: Favourite agent is optimal
+-----------------------------------------------------------------------
+In [2]: runfile('C:/Users/Gw33m/.spyder-py3/programs/a1/a1.py', wdir='C:/Users/Gw33m/.spyder-py3/programs/a1')
+
+Welcome to the Valorant Agent Picker.
+Enter the 4 agents that have already been selected by your teammates.
+=====================================================================
+Valid agents: 
+['jett', 'raze', 'reyna', 'yoru', 'neon', 'phoenix', 'breach', 'kay/o', 'skye', 'sova', 'fade', 'astra', 'omen', 'viper', 'harbor', 'brimstone', 'cypher', 'killjoy', 'chamber', 'sage']
+
+ > Agent 1: Jett
+ > Agent 2: Brimstone
+ > Agent 3: Raze
+ > Agent 4: Chamber
+
+Enter your favourite agent. If you don't have one, enter 'none'
+ > Favourite Agent: Skye
+
+Congratulations! Your favourite agent is optimal, you should play Skye.
+
+
+
+
+
+-----------------------------------------------------------------------
+OUTPUT CASE 3: Favourite agent is not optimal / multiple optimal agents
+-----------------------------------------------------------------------
+In [3]: runfile('C:/Users/Gw33m/.spyder-py3/programs/a1/a1.py', wdir='C:/Users/Gw33m/.spyder-py3/programs/a1')
+
+Welcome to the Valorant Agent Picker.
+Enter the 4 agents that have already been selected by your teammates.
+=====================================================================
+Valid agents: 
+['jett', 'raze', 'reyna', 'yoru', 'neon', 'phoenix', 'breach', 'kay/o', 'skye', 'sova', 'fade', 'astra', 'omen', 'viper', 'harbor', 'brimstone', 'cypher', 'killjoy', 'chamber', 'sage']
+
+ > Agent 1: Jett
+ > Agent 2: Brimstone
+ > Agent 3: Harbor
+ > Agent 4: Killjoy
+
+Enter your favourite agent. If you don't have one, enter 'none'
+ > Favourite Agent: Reyna
+
+These are the agents that would benefit your team the most. Pick whichever one seems most fun to you!
+ > Breach
+ > Skye
+ > Fade
+
+
+
+
+
+----------------------------------------------------------
+OUTPUT CASE 4: No favourite agent / only one optimal agent
+----------------------------------------------------------
+In [4]: runfile('C:/Users/Gw33m/.spyder-py3/programs/a1/a1.py', wdir='C:/Users/Gw33m/.spyder-py3/programs/a1')
+
+Welcome to the Valorant Agent Picker.
+Enter the 4 agents that have already been selected by your teammates.
+=====================================================================
+Valid agents: 
+['jett', 'raze', 'reyna', 'yoru', 'neon', 'phoenix', 'breach', 'kay/o', 'skye', 'sova', 'fade', 'astra', 'omen', 'viper', 'harbor', 'brimstone', 'cypher', 'killjoy', 'chamber', 'sage']
+
+ > Agent 1: Phoenix
+ > Agent 2: Brimstone
+ > Agent 3: Jett
+ > Agent 4: Sage
+
+Enter your favourite agent. If you don't have one, enter 'none'
+ > Favourite Agent: none
+
+The most beneficial agent for your team is Fade!
+
+
+
+
+
+--------------------------------------------------------------------
+OUTPUT 5: Random case (practical test, used in a real Valorant game)
+--------------------------------------------------------------------
+In [5]: runfile('C:/Users/Gw33m/.spyder-py3/programs/a1/a1.py', wdir='C:/Users/Gw33m/.spyder-py3/programs/a1')
+
+Welcome to the Valorant Agent Picker.
+Enter the 4 agents that have already been selected by your teammates.
+=====================================================================
+Valid agents: 
+['jett', 'raze', 'reyna', 'yoru', 'neon', 'phoenix', 'breach', 'kay/o', 'skye', 'sova', 'fade', 'astra', 'omen', 'viper', 'harbor', 'brimstone', 'cypher', 'killjoy', 'chamber', 'sage']
+
+ > Agent 1: Raze
+ > Agent 2: Jett
+ > Agent 3: Sova
+ > Agent 4: Sage
+
+Enter your favourite agent. If you don't have one, enter 'none'
+ > Favourite Agent: Reyna
+
+These are the agents that would benefit your team the most. Pick whichever one seems most fun to you!
+ > Astra
+ > Omen
